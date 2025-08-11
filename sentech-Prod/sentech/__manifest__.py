@@ -16,6 +16,7 @@
     # Check https://github.com/odoo/odoo/blob/14.0/odoo/addons/base/data/ir_module_category_data.xml
     # for the full list
     'category': 'Uncategorized',
+    'license': 'LGPL-3',
     'version': '18.0.0.1',
 
     # any module necessary for this one to work correctly
@@ -26,8 +27,9 @@
         'views/custom_external_layout.xml',
         'views/sale_order.xml',
         'views/invoice_view.xml',
-        'report/invoice_report.xml',
-        'report/sale_order_report.xml',
+        # TODO: Fix XPath selectors for Odoo 18 compatibility
+        # 'report/invoice_report.xml',
+        # 'report/sale_order_report.xml',
     ],
     # only loaded in demonstration mode
     

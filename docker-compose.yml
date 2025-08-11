@@ -18,5 +18,8 @@ services:
       - USER=odoo
       - PASSWORD=odoo
     volumes:
-      - ./odoo-data:/var/lib/odoo
+      - odoo-data:/var/lib/odoo
       - ./sentech-Prod:/mnt/extra-addons/sentech-Prod
+    user: root
+volumes:
+  odoo-data:

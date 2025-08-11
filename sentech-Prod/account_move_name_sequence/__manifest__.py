@@ -19,7 +19,7 @@
     ],
     "data": [
         "views/account_journal.xml",
-        "views/account_move.xml",
+        # "views/account_move.xml",  # TODO: Fix XPath for Odoo 18 compatibility
         "security/ir.model.access.csv",
     ],
     "post_init_hook": "create_journal_sequences",
