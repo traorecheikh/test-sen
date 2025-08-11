@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
      <template id="invoice_report_amount_in_words_inherit" inherit_id="account.report_invoice_document">
-            <xpath expr="//table[@name='invoice_line_table']" position="after">
+            <xpath expr="//div[@class='clearfix']" position="after">
                  <div style="padding-top:20px; padding-bottom:20px;">
                     <p><span><strong>En votre aimable réglement la somme de: </strong></span><span t-field="o.amount_words"/></p> 
                      <p><span><strong>Numéro de compte bancaire: </strong></span><span t-field="o.personal_partner_bank_id.acc_number"/></p>
