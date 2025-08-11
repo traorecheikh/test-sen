@@ -21,12 +21,12 @@
             	<sheet position="before">
 	            	<header>
 	            		<button string="Set as Template" type="object" name="set_template" 
-	            		class="oe_highlight"  attrs="{'invisible':[('sequence_state','!=',2)]}"/>
+	            		class="oe_highlight" invisible="sequence_state != 2"/>
 	            		<button string="Set to In Progress" type="object" name="set_progress" 
-	            		class="oe_highlight"  attrs="{'invisible':[('sequence_state','!=',1)]}"/>
-	            		<button string="New Project Based On Template" type="object" name="new_project" class="oe_highlight" attrs="{'invisible':[('sequence_state','!=',3)]}"/>
+	            		class="oe_highlight" invisible="sequence_state != 1"/>
+	            		<button string="New Project Based On Template" type="object" name="new_project" class="oe_highlight" invisible="sequence_state != 3"/>
 	            		<button string="Reset as Project" type="object" name="reset_project" 
-	            		class="oe_highlight" attrs="{'invisible':[('sequence_state','!=',3)]}" />
+	            		class="oe_highlight" invisible="sequence_state != 3" />
 	            		<field name="stage_id" widget="statusbar" domain="[('project_check','=',True)]"/>
 	            	</header>
 	            </sheet>
