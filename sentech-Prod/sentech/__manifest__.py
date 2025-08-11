@@ -27,9 +27,8 @@
         'views/custom_external_layout.xml',
         'views/sale_order.xml',
         'views/invoice_view.xml',
-        # TODO: Fix XPath selectors for Odoo 18 compatibility
-        # 'report/invoice_report.xml',
-        # 'report/sale_order_report.xml',
+        'report/invoice_report.xml',
+        'report/sale_order_report.xml',
     ],
     # only loaded in demonstration mode
     
