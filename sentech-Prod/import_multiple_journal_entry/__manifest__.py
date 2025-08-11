@@ -7,6 +7,7 @@
     'price': 29,
     'currency': "EUR",
     'category': 'Accounting',
+    'license': 'LGPL-3',
     'summary': 'Import Data App for import journal entry import account move line import account move import mass journal entries import multiple journal entries excel import journal entry excel import accounting entry  import opening journal entry import opening balance',
     'description': """
 	Used to 
