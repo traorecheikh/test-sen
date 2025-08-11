@@ -13,10 +13,9 @@
         'views/sale_order_view.xml',
         'views/purchase_order_view.xml',
         'views/invoice_view.xml',
-        # TODO: Fix XPath selectors for Odoo 18 compatibility
-        # 'report/sale_order_report.xml',
-        # 'report/purchase_order_report.xml',
-        # 'report/invoice_report.xml',
+        'report/sale_order_report.xml',
+        'report/purchase_order_report.xml',
+        'report/invoice_report.xml',
     ],
     'qweb': [],
     'images': ['static/description/odoo_amount_in_words_banner.png'],

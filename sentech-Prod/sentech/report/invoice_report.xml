@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <template id="invoice_report_sentech_inherit" inherit_id="account.report_invoice_document">
-        <xpath expr="//p[@name='comment']" position="after">
+        <xpath expr="//table[@name='invoice_line_table']" position="after">
                 <div style="padding-top:20px; padding-bottom:20px;">
                     <p><span><strong>Libellé: </strong></span><span t-field="o.libelle"/></p>                    
                 </div>
