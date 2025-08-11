@@ -11,7 +11,7 @@ import xlrd
 import itertools
 from odoo.tools import DEFAULT_SERVER_DATETIME_FORMAT, DEFAULT_SERVER_DATE_FORMAT
 from datetime import date, datetime
-from odoo.exceptions import Warning, ValidationError
+from odoo.exceptions import UserError, ValidationError
 from odoo import models, fields, api, _, exceptions
 import logging
 from operator import itemgetter

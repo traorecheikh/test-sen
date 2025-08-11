@@ -2,7 +2,7 @@
 # Part of BrowseInfo. See LICENSE file for full copyright and licensing details.
 {
     'name': 'Import Multiple Journal Entries from CSV or Excel File in Odoo',
-    'version': '14.0.0.1',
+    'version': '18.0.0.1',
     'sequence': 4,
     'price': 29,
     'currency': "EUR",
