@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 {
     'name': 'Display Amount In Words in quotations, invoices and purchase orders',
-    'version': '14.0.0.0',
+    'version': '18.0.0.0',
     'author': 'Cloudroits',
     'summary': 'Display Amount In Words in quotations, invoices and purchase orders, both in forms as well as reports',
     'description': """This module displays Total Amount In Words in quotations, invoices and purchase orders, both in forms as well as reports.""",
